@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from data import skills, cases, profile
+from .data import skills, cases, profile
 
 app = FastAPI(title="Portfolio API")
 
